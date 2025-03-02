@@ -40,7 +40,7 @@ export default function Home() {
     }
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
     if (!email) {
@@ -66,16 +66,17 @@ export default function Home() {
         throw new Error(data.message || 'Something went wrong');
       }
       
-      setSubmitted(true);
       setEmail('');
       setName('');
       setActiveSection('waitlist-success'); // If you're using the section approach
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setSubmitting(false);
+    }catch (err) {
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('An unknown error occurred');
+      }
     }
-  };
+  };    
 
   const renderVisionSection = () => (
     <section className="min-h-screen flex flex-col justify-center pt-24 md:pt-28">
