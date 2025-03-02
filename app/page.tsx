@@ -194,8 +194,8 @@ export default function Home() {
           
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Thanks for Joining!</h2>
           <p className="text-blue-100 mb-8">
-            You're now on our waitlist. We'll notify you as soon as {APP_NAME} launches. Get ready for a revolutionary auto-rickshaw experience!
-          </p>
+  You&apos;re now on our waitlist. We&apos;ll notify you as soon as {APP_NAME} launches. Get ready for a revolutionary auto-rickshaw experience!
+</p>
           
           <button 
             onClick={() => setActiveSection('vision')}
@@ -368,8 +368,7 @@ export default function Home() {
                         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-xl transform transition-all hover:scale-105 hover:border-blue-500 md:ml-auto" style={{maxWidth: "90%"}}>
                           <h3 className="text-2xl font-bold text-white mb-3">Phase 1: Market Research</h3>
                           <div className="h-1 w-20 bg-blue-500 mb-4 md:ml-auto"></div>
-                          <p className="text-blue-100">"Understanding user pain points and market needs through extensive research with both commuters and auto-rickshaw drivers."</p>
-                        </div>
+                          <p className="text-blue-100">Understanding user pain points and market needs through extensive research with both commuters and auto-rickshaw drivers.</p>                        </div>
                       </div>
                       <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full flex items-center justify-center z-20 mx-4">
                         <span className="text-white font-bold">1</span>
@@ -465,8 +464,7 @@ export default function Home() {
                         </div>
                         <div className="ml-4">
                           <h3 className="text-xl font-semibold text-white mb-2">Real-Time Tracking</h3>
-                          <p className="text-blue-100">See available autos near you and track your driver's arrival in real-time.</p>
-                        </div>
+                          <p className="text-blue-100">See available autos near you and track your driver&apos;s arrival in real-time.</p>                        </div>
                       </div>
                       <div className="flex items-start">
                         <div className="flex-shrink-0 w-12 h-12 relative group transition-all duration-300">
