@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 
 // App name - you can change this
 const APP_NAME = "RickshawGo";
@@ -12,7 +11,7 @@ export default function Home() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
+  const [ setSubmitted] = useState(false);
   const [error, setError] = useState('');
   const [activeSection, setActiveSection] = useState('vision');
   const [scrolled, setScrolled] = useState(false);
