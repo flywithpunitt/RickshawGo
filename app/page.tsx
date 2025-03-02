@@ -11,7 +11,7 @@ export default function Home() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false); // ✅ Fixed state
+  // const [submitted, setSubmitted] = useState(false); // ✅ Fixed state
   const [error, setError] = useState('');
   const [activeSection, setActiveSection] = useState('vision');
   const [scrolled, setScrolled] = useState(false);
