@@ -85,7 +85,7 @@ export default function Home() {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">Revolutionizing</span> Daily Commutes in India
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto">
-            No more guessing, no more waiting. Book an auto-rickshaw instantly with real-time tracking and transparent pricing.
+          No more guessing, no more waiting. Book an auto-rickshaw instantly with real-time tracking and transparent pricing.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
             <button 
@@ -368,7 +368,7 @@ export default function Home() {
                         <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-xl transform transition-all hover:scale-105 hover:border-blue-500 md:ml-auto" style={{maxWidth: "90%"}}>
                           <h3 className="text-2xl font-bold text-white mb-3">Phase 1: Market Research</h3>
                           <div className="h-1 w-20 bg-blue-500 mb-4 md:ml-auto"></div>
-                          <p className="text-blue-100">Understanding user pain points and market needs through extensive research with both commuters and auto-rickshaw drivers.</p>
+                          <p className="text-blue-100">"Understanding user pain points and market needs through extensive research with both commuters and auto-rickshaw drivers."</p>
                         </div>
                       </div>
                       <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full flex items-center justify-center z-20 mx-4">
@@ -622,7 +622,7 @@ export default function Home() {
           <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       </div>
-      <p className="text-blue-100">"No more standing in the sun waving at autos! I schedule my office pickup every day at 8:30 AM, and it's so reliable."</p>
+      <p className="text-blue-100">&quot;No more standing in the sun waving at autos! I schedule my office pickup every day at 8:30 AM, and it&apos;s so reliable.&quot;</p>
     </div>
     <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-300 hover:transform hover:scale-105 hover:border-blue-500">
       <div className="flex items-center mb-4">
@@ -651,7 +651,7 @@ export default function Home() {
           <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       </div>
-      <p className="text-blue-100">"The transparent pricing is what I love most. No more haggling or paying extra during rush hour or rain."</p>
+      <p className="text-blue-100">&quot;The transparent pricing is what I love most. No more haggling or paying extra during rush hour or rain.&quot;</p>
     </div>
     <div className="bg-gray-800 p-6 rounded-xl border border-gray-700 shadow-xl hover:shadow-2xl transition-all duration-300 hover:transform hover:scale-105 hover:border-blue-500">
       <div className="flex items-center mb-4">
@@ -680,7 +680,7 @@ export default function Home() {
           <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
         </svg>
       </div>
-      <p className="text-blue-100">"As a woman, I feel much safer selecting autos with good ratings. The seating preference feature is so useful!"</p>
+      <p className="text-blue-100">&quot;As a woman, I feel much safer selecting autos with good ratings. The seating preference feature is so useful!&quot;</p>
     </div>
   </div>
 </div>
