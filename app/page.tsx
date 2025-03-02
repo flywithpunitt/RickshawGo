@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState, useEffect } from 'react';
 import Head from 'next/head';
@@ -11,7 +11,7 @@ export default function Home() {
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [submitting, setSubmitting] = useState(false);
-  const [ setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false); // ✅ Fixed state
   const [error, setError] = useState('');
   const [activeSection, setActiveSection] = useState('vision');
   const [scrolled, setScrolled] = useState(false);
@@ -30,10 +30,10 @@ export default function Home() {
     };
   }, [scrolled]);
 
-  const scrollToSection = (id) => {
+  const scrollToSection = (id: string) => { // ✅ Fixed type
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ 
+      element.scrollIntoView({
         behavior: 'smooth',
         block: 'start'
       });
